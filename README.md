@@ -44,3 +44,13 @@ set $base0D #3971ED
 set $base0E #A36AC7
 set $base0F #3971ED
 ```
+### Idea.desktop file config, first you should create file
+```bash
+nano ~/.local/share/applications/idea.desktop
+```
+### and you should type this commands
+```bash
+sudo chmod 644 /usr/share/applications/idea.desktop
+sudo chown root:root /usr/share/applications/idea.desktop
+```
+
