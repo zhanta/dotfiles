@@ -2,19 +2,26 @@
 ### just copy only slices
 ## Don't copy all code line pls, because you can destroy your i3!
 
--   login
--   uploading
--   downloading
--   deleting
--   searching
--   sharing
--   renaming
--   moving files
+-   i3 config
+-   i3status config
+-   display.sh to use changer between two monitors
+
+### Before using my config files, pls download this files!
+```bash
+sudo apt install rofi suckless-tools
+```
+-   Rofi - it's a alternative to dmenu, it can open menu with icons!
 
 ### You can just change folder location!
 ```bash
 bindsym $mod+p exec --no-startup-id ~/.config/display.sh 
 ```
+
+### Before using $mod+p to change monitors, you should type this command:
+```bash
+chmod +x display.sh
+```
+
 ### You can download or color combination by other github user link!
 [base16-i3 github](https://github.com/khamer/base16-i3/tree/master/themes)
 ```bash
