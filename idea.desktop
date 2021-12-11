@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=3.0
+Type=Application
+Terminal=false
+Icon[en_US]=/home/zhanta/.ideaIU/bin/idea.png
+Name[en_US]=IntelliJ IDEA
+Exec=/home/zhanta/.ideaIU/bin/idea.sh
+Name=IntelliJ IDEA
+Categories=Utility;TextEditor;Development;IDE;
+Icon=/home/zhanta/.ideaIU/bin/idea.png
+Comment=Develop Java, Kotlin, Gradle projects
+Path=
+StartupNotify=false
