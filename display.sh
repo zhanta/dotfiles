@@ -7,7 +7,7 @@
                                                                                                                                                                                                                                                                
                                                                                                                                                                                                                                                                
 # This is your default laptop screen, detect by running `xrandr`                                                                                                                                                                                               
-INTERNAL_OUTPUT="eDP1"                                                                                                                                                                                                                                       
+INTERNAL_OUTPUT="eDP-1"                                                                                                                                                                                                                                       
                                                                                                                                                                                                                                                                
 # choices will be displayed in dmenu                                                                                                                                                                                                                           
 choices="laptop\ndual\nexternal\nclone"                                                                                                                                                                                                                        
@@ -17,8 +17,8 @@ chosen=$(echo -e $choices | dmenu -i)
                                                                                                                                                                                                                                                                
 # This is used to determine which external display you have connected
 # This may vary between OS. e.g VGA1 instead of VGA-1
-if [ `xrandr | grep VGA1 | grep -c ' connected '` -eq 1 ]; then
-        EXTERNAL_OUTPUT="VGA1"
+if [ `xrandr | grep VGA-1 | grep -c ' connected '` -eq 1 ]; then
+        EXTERNAL_OUTPUT="VGA-1"
 fi
 if [ `xrandr | grep DVI-1 | grep -c ' connected '` -eq 1 ]; then
         EXTERNAL_OUTPUT="DVI-1"
