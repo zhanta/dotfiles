@@ -16,7 +16,12 @@ sudo apt install rofi suckless-tools
 ```bash
 bindsym $mod+p exec --no-startup-id ~/.config/display.sh 
 ```
-
+### Script is makes switching between laptop and external display
+To run this script, map it to some shortcut in your i3 config, e.g:     
+IMPORTANT: run chmod +x on the script to make it executable 
+```bash
+bindsym $mod+p exec --no-startup-id $config/display.sh 
+```
 ### Before using $mod+p to change monitors, you should type this command:
 ```bash
 chmod +x display.sh
